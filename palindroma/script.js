@@ -23,4 +23,15 @@ function isWordPalindrome(word) {
         const thisLetter = word[i];
         revertedWord += thisLetter;
     }
+
+    // se il diversoo è uguale a word allora torna true, altrimenti torna false
+    let isPalindrome;
+    if(revertedWord === word) {
+        isPalindrome = true;
+    } else {
+        isPalindrome = false;
+    }
+
+    return isPalindrome;
+
 }
