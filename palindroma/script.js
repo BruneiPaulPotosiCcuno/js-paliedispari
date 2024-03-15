@@ -13,3 +13,14 @@ if(isUserWordPalindrome) {
 } else {
     alert('non è palindroma');
 }
+
+//functios
+// Verifico se una parola è palindroma
+function isWordPalindrome(word) {
+    // ottenere il contrario di word
+    let revertedWord = '';
+    for(let i = word.length - 1; i >= 0; i--) {
+        const thisLetter = word[i];
+        revertedWord += thisLetter;
+    }
+}
